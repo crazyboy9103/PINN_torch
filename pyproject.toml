@@ -12,6 +12,10 @@ torch = {url = "https://download.pytorch.org/whl/cu117/torch-2.0.0%2Bcu117-cp39-
 torchaudio = {url = "https://download.pytorch.org/whl/cu117/torchaudio-2.0.1%2Bcu117-cp39-cp39-win_amd64.whl"}
 torchtext = {url = "https://download.pytorch.org/whl/torchtext-0.15.1-cp39-cp39-win_amd64.whl"}
 torchvision  = {url = "https://download.pytorch.org/whl/cu117/torchvision-0.15.1%2Bcu117-cp39-cp39-win_amd64.whl"}
+matplotlib = "^3.7.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
 
 [build-system]
 requires = ["poetry-core"]
